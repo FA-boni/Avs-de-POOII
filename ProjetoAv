@@ -1,0 +1,23 @@
+
+package javaapplication3;
+
+import java.util.Scanner;
+
+
+public class JavaApplication3 {
+
+    public static void main(String[] args) {
+        Scanner ler = new Scanner(System.in);
+        int R = ler.nextInt();
+        int C = ler.nextInt();
+        int F = ler.nextInt();
+        
+        if(F > 3*R || C < 95)
+            System.out.println("diminuir");
+        else if(F < 2*R && C > 97);
+        System.out.println("aumentar");
+        else
+	    System.out.println("manter");
+    }
+    
+}
